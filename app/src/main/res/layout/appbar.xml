@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_40sdp"
+    android:background="@color/appBack"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <ImageView
+        android:layout_weight=".2"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:id="@+id/rubbish"
+        android:layout_height="@dimen/_25sdp" />
+    <TextView
+        android:layout_weight=".6"
+        android:text="سوبر ماركت"
+        android:gravity="center"
+        android:textSize="@dimen/_14ssp"
+        android:textColor="@android:color/white"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        />
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_weight=".2"
+        android:src="@drawable/back"
+        android:id="@+id/back"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_20sdp" />
+</LinearLayout>
+</android.support.design.widget.AppBarLayout>
